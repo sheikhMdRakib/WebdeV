@@ -1,2 +1,1 @@
-#WebdeV
-#Learning Web Development
+Learning Web Development
