@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+    <title>Form</title>
+</head>
+<body>
+    <h1>Default Form</h1>
+    <form action="/registration" method="POST">
+        <label for="username">Username:</label><br>
+        <input type="text" name="username"><br>
+
+        <label for="password">Password:</label><br>
+        <input type="password"><br><br>
+        <input type="submit"><br>
+
+        <br>
+        <input type="checkbox" name="dog" value="Dog">
+        <label for="dog">I own a dog</label><br>
+
+        <input type="checkbox" name="cat" value="Cat">
+        <label for="cat">I own a cat</label><br><br>
+
+        <input type="radio" id="Right" name="right" value="Right">
+        <label for="right">I am right-handed</label><br>
+        <input type="radio" id="Left" name="left" value="Left">
+        <label for="left">I am left-handed</label><br><br>
+
+        <label for="age">Age:</label><br>
+        <input type="number" name="age" ><br>
+        <label for="email">Email:</label><br>
+        <input type="email" name="email" value="@gmail.com"><br>
+        <label for="file">File:</label><br>
+        <input type="file" name="file"><br><br>
+
+        <label for="textarea">Opinion:</label><br>
+        <textarea name="multiline"  rows="5"></textarea><br><br>
+
+        <label for="select">Choose a option:</label><br>
+        <select name="food">
+            <option value="chocolate">Chocolate</option>
+            <option value="ice_cream">Ice Cream</option>
+        </select>
+    </form>
+    
+</body>
+</html>
